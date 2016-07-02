@@ -26,7 +26,7 @@ html,body {
 }
 
 .logo{
-	padding: 20px 10px;
+	padding: 12px 28px;
 }
 
 .trip{
@@ -34,10 +34,13 @@ html,body {
 	left: 100px;
 	bottom: 55px;
 }
+
 .contacts{
 	position: absolute;
 	top:10px;
 	right: 30px;
+	line-height: 18px;
+
 }
 
 header p {
@@ -46,7 +49,7 @@ header p {
 }
 
 header a {
-	font-size: 10px;
+	font-size: 11px;
 	color: #128aa7;
 }
 
@@ -62,6 +65,7 @@ header a {
 
 .contry{
 	display: inline-block;
+	padding: 0 4px;
 }
 
 .contry a{
@@ -86,7 +90,7 @@ ul.menu {
 	background: linear-gradient(to bottom,  #5e5e5e 0%,#595959 26%,#494848 77%,#444343 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#444343',GradientType=0 ); /* IE6-9 */
     list-style: none;
-    font-size: 14px;
+    font-size: 16px;
     border-bottom: 1px solid black;
     -webkit-box-shadow: 0px 4px 20px -4px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 4px 20px -4px rgba(0,0,0,0.75);
@@ -107,7 +111,7 @@ ul.menu > li {
 
 ul.menu > li > a {
     display: block;
-    padding: 10px 35px;
+    padding: 6px 35px;
     color: white;
     text-decoration: none;
 }
@@ -116,8 +120,8 @@ ul.submenu {
     display: none;
     position: absolute;
     width: 145px;
-    top: 35px;
-    left: 0;
+    top: 29px;
+    left: 30px;
     background-color: #303030;
     font-size: 13px;
     -webkit-box-shadow: 4px 7px 20px -4px rgba(0,0,0,0.75);
@@ -156,8 +160,8 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .content p{
-	
-	padding:  5px 15px;
+	line-height: 24px;
+	padding:  0 15px;
 }
 
 h2{
