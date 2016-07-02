@@ -84,11 +84,11 @@ header a {
 }
 
 ul.menu {
-	background: #5e5e5e; /* Old browsers */
-	background: -moz-linear-gradient(top,  #5e5e5e 0%, #595959 26%, #494848 77%, #444343 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #5e5e5e 0%,#595959 26%,#494848 77%,#444343 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #5e5e5e 0%,#595959 26%,#494848 77%,#444343 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#444343',GradientType=0 ); /* IE6-9 */
+	background: rgb(55,55,55); /* Old browsers */
+	background: -webkit-linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
+	background: -o-linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
+	background: linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030',GradientType=0 ); /* IE6-9 */
     list-style: none;
     font-size: 16px;
     border-bottom: 1px solid black;
@@ -144,6 +144,17 @@ ul.menu > li:hover > ul.submenu {
     display: block;
 }
 
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 6px solid white;
+	position: absolute;
+	top: 12px;
+	right: 20px;
+}
+
 .content{
 	background: url(../img/content-fon.png) repeat-y;
 	float: left;
@@ -162,12 +173,14 @@ ul.menu > li:hover > ul.submenu {
 .content p{
 	line-height: 24px;
 	padding:  0 15px;
+	color: #424c43;
 }
 
 h2{
 	font-size:18px;
 	text-align: center;
 	padding: 10px;
+	color: #424c43;
 }
 
 .copyright p{
