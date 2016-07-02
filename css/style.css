@@ -14,10 +14,9 @@ html,body {
 	width: 1000px;
 	margin: 0 auto;
 	background-color: #fff;
-	-webkit-box-shadow: 0 7px 20px -4px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0 7px 20px -4px rgba(0,0,0,0.75);
-	box-shadow: 4px 7px 20px -4px rgba(0,0,0,0.75);
-	
+	-moz-box-shadow: 0px 4px 8px #031d28;
+	-webkit-box-shadow: 0px 4px 8px #031d28;
+	box-shadow: 0px 4px 8px #031d28;
 }
 
 .head{
@@ -84,6 +83,8 @@ header a {
 }
 
 ul.menu {
+	position: relative;
+	padding: 0 38px;
 	background: rgb(55,55,55); /* Old browsers */
 	background: -webkit-linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
 	background: -o-linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
@@ -92,9 +93,9 @@ ul.menu {
     list-style: none;
     font-size: 16px;
     border-bottom: 1px solid black;
-    -webkit-box-shadow: 0px 4px 20px -4px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 4px 20px -4px rgba(0,0,0,0.75);
-	box-shadow: 0px 4px 20px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 3px 14px #555555;
+	-moz-box-shadow: 0px 3px 14px #555555;
+	box-shadow: 0px 3px 14px #555555;
 }
 
 ul:after {
@@ -111,7 +112,7 @@ ul.menu > li {
 
 ul.menu > li > a {
     display: block;
-    padding: 6px 35px;
+    padding: 6px 30px;
     color: white;
     text-decoration: none;
 }
@@ -124,9 +125,9 @@ ul.submenu {
     left: 30px;
     background-color: #303030;
     font-size: 13px;
-    -webkit-box-shadow: 4px 7px 20px -4px rgba(0,0,0,0.75);
-	-moz-box-shadow: 4px 7px 20px -4px rgba(0,0,0,0.75);
-	box-shadow: 4px 7px 20px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 18px #555555;
+	-moz-box-shadow: 0px 4px 18px #555555;
+	box-shadow: 0px 4px 18px #555555;
 }
 
 ul.submenu > li {
