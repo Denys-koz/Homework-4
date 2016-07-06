@@ -1,5 +1,4 @@
-html,body {
-  height: 100%;
+body {
   font-family: Tahoma, Arial sans-serif;
   font-size:14px;
 }
@@ -109,7 +108,7 @@ ul.menu > li {
 
 ul.menu > li > a {
     display: block;
-    padding: 7px 35px;
+    padding: 7px 30px;
     color: white;
     text-decoration: none;
 }
@@ -118,7 +117,7 @@ ul.submenu {
     display: none;
     position: absolute;
     width: 145px;
-    top: 29px;
+    top: 28px;
     left: 30px;
     background-color: #303030;
     -webkit-box-shadow: 0px 4px 18px #555555;
